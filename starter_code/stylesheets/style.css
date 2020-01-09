@@ -5,3 +5,75 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+@media only screen and (max-width: 568px) {
+	body {
+		background-color: #f4f3f4;
+		font-family: Lato, sans-serif;
+		text-align: left;
+		color: #5b5e6d;
+	}
+
+	h1,
+	h2 {
+		font-family: "Source Serif Pro", serif;
+		color: #2c303f;
+	}
+	button {
+		border-radius: 5px;
+		color: white;
+		border: 0px solid #192592;
+		background-color: #192592;
+		padding: 0px;
+		width: 340px;
+		height: 50px;
+		margin-bottom: 20px;
+	}
+
+	input {
+		border-radius: 5px;
+		color: #5b5e6d;
+		border: 1px solid #5b5e6d;
+		background-color: #f4f3f4;
+		padding: 0px;
+		width: 340px;
+		height: 50px;
+		margin-bottom: 20px;
+	}
+
+	.sign-in {
+		text-align: center;
+	}
+
+	.try-for-free {
+		font-family: "Source Serif Pro", serif;
+		color: #2c303f;
+		text-align: center;
+	}
+
+	img[alt ="slack_logo"] {
+		width: 5rem;
+	}
+
+	img[alt ="home_work_happening"] {
+		width: 375px;
+	}
+
+	.references-logos {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.references img {
+		width: 240px;
+		height: 40px;
+		object-fit: scale-down;
+		padding: 25px;
+		border-bottom: 1px solid grey;
+	}
+
+	.references img:last-child {
+		border-bottom: 0px solid grey;
+	}
+}
